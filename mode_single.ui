@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Mode_Single</class>
+ <widget class="QMainWindow" name="Mode_Single">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>游戏选项</string>
+    </property>
+    <addaction name="actionstop"/>
+    <addaction name="actionsave"/>
+    <addaction name="actionout"/>
+    <addaction name="actionexit"/>
+    <addaction name="separator"/>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionsave">
+   <property name="text">
+    <string>保存游戏</string>
+   </property>
+  </action>
+  <action name="actionout">
+   <property name="text">
+    <string>保存并退出</string>
+   </property>
+  </action>
+  <action name="actionexit">
+   <property name="text">
+    <string>退出游戏</string>
+   </property>
+  </action>
+  <action name="actionabout">
+   <property name="text">
+    <string>关于</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </action>
+  <action name="actionstop">
+   <property name="text">
+    <string>暂停\启动</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
